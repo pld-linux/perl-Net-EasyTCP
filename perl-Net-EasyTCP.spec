@@ -8,12 +8,12 @@
 Summary:	Net::EasyTCP Perl module - easily create TCP/IP clients and servers
 Summary(pl):	Modu³ Perla Net::EasyTCP - pomocny przy tworzeniu klientów i serwerów TCP/IP
 Name:		perl-Net-EasyTCP
-Version:	0.19
+Version:	0.25
 Release:	1
 License:	Artistic or GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
-# Source0-md5:	5def9037ba2bd443f60126c33ebab0d8
+# Source0-md5:	10e937f95e93588d1e602757449fcff5
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	perl-Storable
 BuildRequires:	rpm-perlprov >= 4.1-13
