@@ -1,10 +1,14 @@
+#
+# Conditional build:
+# _without_tests - do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Net
 %define		pnam	EasyTCP
 Summary:	Net::EasyTCP Perl module - easily create TCP/IP clients and servers
 Summary(pl):	Modu³ Perla Net::EasyTCP - pomocny przy tworzeniu klientów i serwerów TCP/IP
 Name:		perl-Net-EasyTCP
-Version:	0.13
+Version:	0.15
 Release:	1
 License:	Artistic or GPL
 Group:		Development/Languages/Perl
@@ -41,6 +45,7 @@ TCP/IP. Cechy:
 %build
 perl Makefile.PL
 %{__make}
+%{!?_without_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
