@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Net
-%define	pnam	EasyTCP
+%define		pdir	Net
+%define		pnam	EasyTCP
 Summary:	Net::EasyTCP Perl module - easily create TCP/IP clients and servers
 Summary(pl):	Modu³ Perla Net::EasyTCP - pomocny przy tworzeniu klientów i serwerów TCP/IP
 Name:		perl-Net-EasyTCP
