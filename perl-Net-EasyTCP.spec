@@ -9,13 +9,13 @@ Summary:	Net::EasyTCP Perl module - easily create TCP/IP clients and servers
 Summary(pl):	Modu³ Perla Net::EasyTCP - pomocny przy tworzeniu klientów i serwerów TCP/IP
 Name:		perl-Net-EasyTCP
 Version:	0.17
-Release:	1
+Release:	2
 License:	Artistic or GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
 BuildRequires:	perl-Storable
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -43,7 +43,8 @@ TCP/IP. Cechy:
 %setup -q -n %{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 %{!?_without_tests:%{__make} test}
 
@@ -59,8 +60,8 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes
-%{perl_sitelib}/Net/EasyTCP.pm
-%dir %{perl_sitelib}/auto/Net/EasyTCP
-%{perl_sitelib}/auto/Net/EasyTCP/autosplit.ix
-%{perl_sitelib}/auto/Net/EasyTCP/*.al
+%{perl_vendorlib}/Net/EasyTCP.pm
+%dir %{perl_vendorlib}/auto/Net/EasyTCP
+%{perl_vendorlib}/auto/Net/EasyTCP/autosplit.ix
+%{perl_vendorlib}/auto/Net/EasyTCP/*.al
 %{_mandir}/man3/*
