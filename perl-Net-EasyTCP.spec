@@ -10,7 +10,8 @@ Summary(pl):	Modu³ Perla Net::EasyTCP - pomocny przy tworzeniu klientów i serwer
 Name:		perl-Net-EasyTCP
 Version:	0.26
 Release:	1
-License:	Artistic or GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
 # Source0-md5:	c8ff3f221bcdb358ed9dfa8c6b098b35
