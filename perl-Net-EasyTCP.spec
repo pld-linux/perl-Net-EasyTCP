@@ -37,8 +37,8 @@ TCP/IP. Cechy:
 - obiektowo zorientowany interfejs
 - funkcje callback sterowane zdarzeniami w trybie serwera
 - wewnêtrzny protokó³ rozwi±zuj±cy g³ówne problemy z transportem
-- prze¼roczyste szyfrowanie
-- prze¼roczysta kompresja.
+- przezroczyste szyfrowanie
+- przezroczysta kompresja.
 
 %prep
 %setup -q -n %{pnam}-%{version}
