@@ -6,7 +6,7 @@
 %define		pdir	Net
 %define		pnam	EasyTCP
 Summary:	Net::EasyTCP Perl module - easily create TCP/IP clients and servers
-Summary(pl):	Modu≥ Perla Net::EasyTCP - pomocny przy tworzeniu klientÛw i serwerÛw TCP/IP
+Summary(pl.UTF-8):   Modu≈Ç Perla Net::EasyTCP - pomocny przy tworzeniu klient√≥w i serwer√≥w TCP/IP
 Name:		perl-Net-EasyTCP
 Version:	0.26
 Release:	2
@@ -30,13 +30,13 @@ Features:
 - transparent encryption
 - transparent compression.
 
-%description -l pl
-Modu≥ Perla Net::EasyTCP - pomocny przy tworzeniu klientÛw i serwerÛw
+%description -l pl.UTF-8
+Modu≈Ç Perla Net::EasyTCP - pomocny przy tworzeniu klient√≥w i serwer√≥w
 TCP/IP. Cechy:
-- jeden ≥atwy w uøyciu modu≥ do tworzenia klientÛw i serwerÛw
+- jeden ≈Çatwy w u≈ºyciu modu≈Ç do tworzenia klient√≥w i serwer√≥w
 - obiektowo zorientowany interfejs
 - funkcje callback sterowane zdarzeniami w trybie serwera
-- wewnÍtrzny protokÛ≥ rozwi±zuj±cy g≥Ûwne problemy z transportem
+- wewnƒôtrzny protok√≥≈Ç rozwiƒÖzujƒÖcy g≈Ç√≥wne problemy z transportem
 - przezroczyste szyfrowanie
 - przezroczysta kompresja.
 
