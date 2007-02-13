@@ -6,7 +6,7 @@
 %define		pdir	Net
 %define		pnam	EasyTCP
 Summary:	Net::EasyTCP Perl module - easily create TCP/IP clients and servers
-Summary(pl.UTF-8):   Moduł Perla Net::EasyTCP - pomocny przy tworzeniu klientów i serwerów TCP/IP
+Summary(pl.UTF-8):	Moduł Perla Net::EasyTCP - pomocny przy tworzeniu klientów i serwerów TCP/IP
 Name:		perl-Net-EasyTCP
 Version:	0.26
 Release:	2
