@@ -4,7 +4,6 @@
 
 %define		pdir	Net
 %define		pnam	EasyTCP
-%include	/usr/lib/rpm/macros.perl
 Summary:	Net::EasyTCP Perl module - easily create TCP/IP clients and servers
 Summary(pl.UTF-8):	Moduł Perla Net::EasyTCP - pomocny przy tworzeniu klientów i serwerów TCP/IP
 Name:		perl-Net-EasyTCP
